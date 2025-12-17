@@ -1,4 +1,0 @@
-GIT  vs GIT HUB
-Git ---> open-source, locally-installed version control system (VCS)
-Git Hub ---> web-based cloud platform that hosts Git repositories
-
