@@ -1,0 +1,33 @@
+GIT  vs GIT HUB
+Git ---> open-source, locally-installed version control system (VCS)
+Git Hub ---> web-based cloud platform that hosts Git repositories
+
+GIT HUB :
+FIRST CLASS:
+	git init -->(for new repository)
+	git clone --> (for dowloading the created respository using hhtps link,ssh)
+	we can see the downloaded file in the zip file
+	git status --> (helped to check it is changed or not)
+	if it shows modified then changes are done(color red)
+	git add . -->(changed files can added by using this command,if it shows green color then the files are added which are changed)
+	git commit -m
+	git merge
+	git push
+	git pull
+	git checkout branch_name
+GIT:
+open cmd in file location 
+>git init
+>git add .
+>git commit -m "first commit or commit name"
+>git config --global user.email "you@example.com"
+>git config --global user.name "Your Name"  -->here open git cmd there you'll find your git name , copy it and paste it
+>git commit -m "first commit" -->here your project file will be stored in git 
+>git remote add origin https://github.com/Vvarshitha4173/Varshitha_3-2_LMS.git -->here open github , login into your account and create a new repository , there you'll find this command and copy it  paset it in cmd
+>git branch --> it gives a branch name like master or main if it dosen't give any branch name give the main as branch name
+>git branch -M "branch_name"
+>git push -u origin master -->here you'll get directly or it will show a window like sign in with your account and click on authroize , now open github refresh it
+>
+github can't able to deploy the dyanmic webpages
+it only works on static webpage deploment
+In github-->settings-->pages-->branch-->master-->save it
