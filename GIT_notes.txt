@@ -31,3 +31,88 @@ open cmd in file location
 github can't able to deploy the dyanmic webpages
 it only works on static webpage deploment
 In github-->settings-->pages-->branch-->master-->save it
+
+Git Pull
+Meaning:
+
+Pull is used to download the latest changes from a remote repository (GitHub) to your local system.
+
+Command:
+git pull
+
+Use:
+
+Update local code
+
+Get changes made by others
+
+One-line (Exam):
+
+Git pull fetches and merges changes from the remote repository to the local repository.
+
+2. Git Push
+Meaning:
+
+Push is used to upload your local commits to the remote repository (GitHub).
+
+Command:
+git push
+
+Use:
+
+Save code on GitHub
+
+Share code with team
+
+One-line (Exam):
+
+Git push sends local repository changes to the remote repository.
+
+3. Fork (GitHub Feature)
+Meaning:
+
+A Fork creates a copy of someone else’s repository into your own GitHub account.
+
+Use:
+
+Contribute to open-source projects
+
+Work independently without affecting original repo
+
+Where:
+
+Done on GitHub website
+
+Click Fork button
+
+One-line (Exam):
+
+Fork creates a personal copy of a repository in your GitHub account.
+
+4. Git Clone
+Meaning:
+
+Clone creates a local copy of a remote repository on your computer.
+
+Command:
+git clone <repository-url>
+
+Use:
+
+Download full project with history
+
+Start working locally
+
+One-line (Exam):
+
+Git clone copies a remote repository to the local machine.
+
+Simple Flow (Easy to Remember 🧠)
+Fork → Clone → Make Changes → Commit → Push → Pull Request
+
+Difference Table (Very Important for Exams)
+Operation	Direction	Tool	Purpose
+Pull	Remote → Local	Git	Get updates
+Push	Local → Remote	Git	Send changes
+Fork	Remote → Remote	GitHub	Copy repo online
+Clone	Remote → Local	Git	Copy repo locally
