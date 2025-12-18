@@ -11,7 +11,7 @@
         }
 
         header {
-            background-color: #427245;
+            background-color: #2e7d32;
             color: white;
             text-align: center;
             padding: 25px;
@@ -32,11 +32,25 @@
         }
 
         h2 {
-            color: #427245;
+            color: #2e7d32;
+        }
+
+        button {
+            background-color: #2e7d32;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        button:hover {
+            background-color: #1b5e20;
         }
 
         footer {
-            background-color: #427245;
+            background-color: #1b5e20;
             color: white;
             text-align: center;
             padding: 10px;
@@ -54,10 +68,10 @@
     <section>
         <div class="box">
             <h2>Why Environment Matters</h2>
-            <p>
+            <p id="envText">
                 The environment gives us air, water, food, and shelter.
-                Protecting it ensures a healthy future for all living beings.
             </p>
+            <button onclick="changeText()">Learn More</button>
         </div>
 
         <div class="box">
@@ -66,12 +80,25 @@
                 Plant trees, reduce plastic use, save water,
                 and recycle waste to protect our environment.
             </p>
+            <button onclick="showMessage()">Take Action</button>
         </div>
     </section>
 
     <footer>
         <p>© 2025 Save Environment Campaign</p>
     </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function changeText() {
+            document.getElementById("envText").innerHTML =
+                "A clean environment improves health, supports life, and ensures a better future.";
+        }
+
+        function showMessage() {
+            alert("🌍 Every small step counts! Start protecting the environment today.");
+        }
+    </script>
 
 </body>
 </html>
