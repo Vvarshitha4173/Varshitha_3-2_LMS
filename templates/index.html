@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Save Environment</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #e8f5e9;
+        }
+
+        header {
+            background-color: #2e677d;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .box {
+            background-color: white;
+            width: 300px;
+            margin: 15px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #2e7d32;
+        }
+
+        button {
+            background-color: #2e7d32;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        button:hover {
+            background-color: #1b5e20;
+        }
+
+        footer {
+            background-color: #1b5e20;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Save Environment</h1>
+        <p>Protect Nature, Protect Life</p>
+    </header>
+
+    <section>
+        <div class="box">
+            <h2>Why Environment Matters</h2>
+            <p id="envText">
+                The environment gives us air, water, food, and shelter.
+            </p>
+            <button onclick="changeText()">Learn More</button>
+        </div>
+
+        <div class="box">
+            <h2>How We Can Help</h2>
+            <p>
+                Plant trees, reduce plastic use, save water,
+                and recycle waste to protect our environment.
+            </p>
+            <button onclick="showMessage()">Take Action</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Save Environment Campaign</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function changeText() {
+            document.getElementById("envText").innerHTML =
+                "A clean environment improves health, supports life, and ensures a better future.";
+        }
+
+        function showMessage() {
+            alert("🌍 Every small step counts! Start protecting the environment today.");
+        }
+    </script>
+
+</body>
+</html>
