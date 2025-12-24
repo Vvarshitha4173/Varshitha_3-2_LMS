@@ -28,10 +28,9 @@ open cmd in file location
 >git branch --> it gives a branch name like master or main if it dosen't give any branch name give the main as branch name
 >git branch -M "branch_name"
 >git push -u origin master -->here you'll get directly or it will show a window like sign in with your account and click on authroize , now open github refresh it
->
-github can't able to deploy the dyanmic webpages
-it only works on static webpage deploment
-In github-->settings-->pages-->branch-->master-->save it
+>github can't able to deploy the dyanmic webpages
+>it only works on static webpage deploment
+>In github-->settings-->pages-->branch-->master-->save it
 
 19-12-25
 AI:
@@ -86,4 +85,13 @@ JSON Methods:
 >to call html files to flask --> render_templates is used 
 >jinja-->is used to dynamic template engine {{}} these are called as jinja codes
 >requests is an 3rd party library which was developed by companies
->
+
+24-12-25
+>git init 
+>git add . --> which is used to add all files in your local computer
+>git commit -m "Added new LMS files" -->which helps to upload the new files to git
+>to update the contents in the files >git add file_name
+>git commit -m "Updated file content"--> this commits the updated content to git
+>git push origin master
+>to check the status in git >git status
+>after this refreash your github then youll get your new files and new contents 
