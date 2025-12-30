@@ -95,3 +95,19 @@ JSON Methods:
 >git push origin master
 >to check the status in git >git status
 >after this refreash your github then youll get your new files and new contents 
+
+29-12-25
+>connect the database to the current project 
+>install mysql -->go to bin file-->paste the path in system variables-->go to cmd in your file-->activate the env -->connect to mysql
+>pip install mysql-connector-python -->
+>cursor() --> used to retrieve, manipulate, and traverse query results from a database.
+>mysql.connector.connect() -->to connect the python and mysql database
+>requests vs request
+>requests-->3rd party python library -->to send HTTP requests (GET, POST, PUT, DELETE)
+>request --> related to flask --> is a object-->it depends on context
+>by default GET in flask if any method is created --> used to ftech the data  or to display the data
+>POST --> used to send or submit the data in forms and login pages --> which provides the security to the mysql data 
+
+30-12-25
+>when connecting the html files in <a href="{{url_for('regiration')}}">
+>the name is from the def function name
